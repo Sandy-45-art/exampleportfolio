@@ -1,0 +1,40 @@
+header{
+    background-color: rgb(46, 44, 44);
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+p{
+    font-size: medium;
+}
+section{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(212, 210, 210);
+    color: rgb(46, 44, 44);
+    border-radius: 20px;
+    text-align: center;
+}
+ul li{
+    display: inline;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.Projects h2{
+    text-align: left;
+}
+.contact{
+    text-align: left;
+}
+@media only screen and (max-width: 600px){
+    header{
+        padding: 20px;
+    }
+    ul li{
+        text-align: center;
+    }
+}
